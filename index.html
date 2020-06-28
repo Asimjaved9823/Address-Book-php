@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Address book</h2>
+        <form action="address.php" method="POST">
+
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" placeholder="PLease Enter Valid Email" required>
+
+            <label for="Birthday">Birthday</label>
+            <input type="date" id="birth" name="Birth" placeholder="Birthday" required>
+
+            <label for="Comp_Address">Address</label> <br>
+            <textarea rows="5" cols="68" name="Comp_Address" id="Comp_Address"></textarea><br>
+
+            <label for="phone">Enter a phone number:</label>
+
+            <input type="text" id="phone" name="phone" placeholder="+923417419823" required>
+            <input type="submit" value="submit"> </form>
+
+        <form action="view.php"><input type="submit" value="View or Delete"></form>
+
+
+    </div>
+    <footer>&copy; Asim Javed CS-172120</footer>
+
+
+
+</body>
+
+</html>
